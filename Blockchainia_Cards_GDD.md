@@ -1,26 +1,26 @@
-# Game Design Document (GDD) for "Blockchainia: CardBrawl"
+# Game Design Document (GDD) for "Eterraverse: Dawn of Eterra"
 
 ## 1. Game Overview
 
 ### Title
-Blockchainia: CardBrawl
+Eterraverse: Dawn of Eterra
 
 ### Concept
-Blockchainia: CardBrawl is a fully on chain game in which Cards are minted for a complex Collect, Craft, and Compete Card game. Each card features a different Monster, Boss, NPC or Playable Character from the Blockchainia Lore. Blockchainia: CardBrawl is a mini-game to our wider gaming ecosystem. The game mixes and adapts from the mechanics of many well known games, from simple capturing based on value (Dominoes, Triple Triad, Final Fantasy 8), to complex battles (Magic the Gathering, Tetra Master, Final Fantasy 9). We implement a combination of Rank, Genetics, Battle Arrows, and Battle Classes to create a strategic hybrid-deterministic battle system. CardBrawl players compete with their genetically unique Cards to collect Resources and earn Experience. Resources allow players to alter their Card's attributes, as well as Forge new Equipment to each card. Experience allows players to level their cards, potentially increasing certain attributes along the way. Legendary and Mythical Weapons and Armor will grant specific Perks in the battle mathematics.
+Eterraverse: Dawn of Eterra is a fully on chain game in which Cards are minted for a complex Collect, Craft, and Compete Card game. Each card features a different Monster, Boss, NPC or Playable Character from the Eterraverse Lore. Eterraverse: Dawn of Eterra is a mini-game to our wider gaming ecosystem. The game mixes and adapts from the mechanics of many well known games, from simple capturing based on value (Dominoes, Triple Triad), to complex battles (Magic the Gathering, Tetra Master). We implement a combination of Rank, Genetics, Battle Arrows, and Battle Classes to create a strategic hybrid-deterministic battle system. Dawn of Eterra players compete with their genetically unique Cards to collect Resources and earn Experience. Resources allow players to alter their Card's attributes, as well as Forge new Equipment to each card. Experience allows players to level their cards, potentially increasing certain attributes along the way. Legendary and Mythical Weapons and Armor will grant specific Perks in the battle mathematics.
 The winner of each match may "Clone" one perishable copy of a card they have captured from their opponents hand. This Clone will be automatically burned after the completion of the first match it participates in. The game's returns are the following Resources: Ingredients, Materials, and Essence, which must be obtained through winning matches. Crafting together Formulas of these Resources results in more powerful equipment and spells which can be Forged to cards to increase its "Face Values" and genetic attributes.  
 
 ### Platform
 PC/Mobile
 
 ### Genre
-Card Game
+Card Game, Companion app
 
 ## 2. Gameplay
 
 ### Game Overview
 EterraCards combines resource collection and crafting with a complex battle system. Players compete against AI NPCs to mine Resources to enhance their genetically unique cards, driving players to level up to enable higher stakes games. Players Ante-up a small fee to play against AI NPCs who drop valuable Resources upon losing. These resources are needed to engage with the crafting system. Cards can be acquired through minting Card Packs, while Resources in the form of Ingredients, Materials, and Essence must be won through playing Card games through the Ante-up system. 
 
-CardBrawl is played on a four-by-four (4x4) four grid of blank squares where cards will be placed as the game progresses. At the start of each game, up to six squares may be blocked from play, referred to as Grid Lock. Each card has four numbers, one in each Cardinal Direction, referred to as "Face Values". Each individual number is referred to as a Rank, representing its strength in that direction. These numbers range from one to ten, ten being represented by the letter 'A'. Cards can have elemental alignments that affect the game play if there are elemental icons on the game board. 
+Dawn of Eterra is played on a four-by-four (4x4) four grid of blank squares where cards will be placed as the game progresses. At the start of each game, up to six squares may be blocked from play, referred to as Grid Lock. Each card has four numbers, one in each Cardinal Direction, referred to as "Face Values". Each individual number is referred to as a Rank, representing its strength in that direction. These numbers range from one to ten, ten being represented by the letter 'A'. Cards can have elemental alignments that affect the game play if there are elemental icons on the game board. 
 
 Before a match, each player selects five Cards from their Deck. A coin-flip decides who begins. The player who wins the coin toss may choose a card to play anywhere on the grid. After the first card is played, the opposing player may play a card on any unoccupied square on the board. The game continues with players' turns alternating.
 
@@ -75,7 +75,7 @@ Cards have different levels. Common level cards have low Face Values, like 1's a
 
 1. **Deck Limits:** Players may only hold 10 instances of a Card for each unique monster, pet, character, or boss per Wallet. This total includes Cloned cards. If there is no room left in a player's wallet for a Cloned card, they must first burn one card of that instance in their deck to collect it. A Wallet Manager will allow the storing of multiple Wallets, akin to a "save file". Players are free to trade their cards to other Wallets through over-the-counter transactions.
   
-1. **Game Board:** Blockchainia: Cards is played on a 4x4 grid board. Each square on the grid can hold one card. 
+1. **Game Board:** Eterraverse: Cards is played on a 4x4 grid board. Each square on the grid can hold one card. 
 
 1. **Grid Lock:** As a game starts, up to six squares may be blocked off, which prevents either player from placing a card on that board square.  
 
@@ -478,7 +478,7 @@ These items may be Forged to a card to add Perks to the card. These Perks activa
 | Storm Helm          | Thunderstone + Iron + Luminite + Sapphire + Lightning Blade    | A helmet that channels the power of storms, protecting the wearer. |
 
 ### Synthesizing Precious Stones
-Precious stones can be used to craft Legendary Weapons to Forge to cards . They can also be used for the summoning of powerful allies in the Blockchainia: OpenWorlds and Blockchainia: CryptoBrawl. 
+Precious stones can be used to craft Legendary Weapons to Forge to cards . They can also be used for the summoning of powerful allies in the Eterraverse: OpenWorlds and Eterraverse: CryptoBrawl. 
 
 | **Precious Stone**    | **Formula**                         | **Name**       | **Description**                                                       |
 |-----------------------|-------------------------------------|----------------|-----------------------------------------------------------------------|
@@ -557,25 +557,25 @@ Equipment and Spells can be used to increase a Cards statistics. Forging Weapons
 ## 3. Story and Setting
 
 ### World
-Blockchainia is a virtual on-chain realm where the separation of magic and technology has been obfuscated from the public by a shadowy organization. Ancient ruins and mines scatter the landscape, providing rich sources of elemental essence and raw materials. NPC characters inhabit the land, littered with monuments, fountains, as well as various spiritual relics left from their ancestors. Most of these relics reside in the hands of families belonging to the Noble class. Player interactions will reveal a deep, unspoken culture, as the lowest class NPC's in Blockchainia also love to play video games, not knowing they exist explicitly inside of one. Paying close attention to NPC interactions reveals clues to the history of this strange world, guiding the player towards easter eggs holding the secrets of the beginning of this unique realm, ultimately leading each player on a unique journey to understand the prophecy behind the NPC's very existence.
+Eterraverse is a virtual on-chain realm where the separation of magic and technology has been obfuscated from the public by a shadowy organization. Ancient ruins and mines scatter the landscape, providing rich sources of elemental essence and raw materials. NPC characters inhabit the land, littered with monuments, fountains, as well as various spiritual relics left from their ancestors. Most of these relics reside in the hands of families belonging to the Noble class. Player interactions will reveal a deep, unspoken culture, as the lowest class NPC's in Eterraverse also love to play video games, not knowing they exist explicitly inside of one. Paying close attention to NPC interactions reveals clues to the history of this strange world, guiding the player towards easter eggs holding the secrets of the beginning of this unique realm, ultimately leading each player on a unique journey to understand the prophecy behind the NPC's very existence.
 
-Blockchainia's society resembles a world where war ceased to exist during the medieval period. Every since, the inhabitants have referred to their world as The Realm. The true history of these foundational moments in their history has been obfuscated from the NPC's minds. Various theories are being pushed amongst the Realm's Ministers, the name given to Blockchainia's scholar's and spiritual leaders. While swords and armor remain the most advanced lethal weapons, they are carried by Knights whom hold a mostly ceremonial status in society. However, entertainment technology was never hindered by the "forgotten events" of the past. Most recently, the release of the long awaited "Gamechainia 3", a console said to be connected to the fabric of the universe itself, has promised players eternal glory. The solution to Blockchainia's problems sets off a series of events that will change the face of the world forever: both theirs and ours. 
+Eterraverse's society resembles a world where war ceased to exist during the medieval period. Every since, the inhabitants have referred to their world as The Realm. The true history of these foundational moments in their history has been obfuscated from the NPC's minds. Various theories are being pushed amongst the Realm's Ministers, the name given to Eterraverse's scholar's and spiritual leaders. While swords and armor remain the most advanced lethal weapons, they are carried by Knights whom hold a mostly ceremonial status in society. However, entertainment technology was never hindered by the "forgotten events" of the past. Most recently, the release of the long awaited "Gamechainia 3", a console said to be connected to the fabric of the universe itself, has promised players eternal glory. The solution to Eterraverse's problems sets off a series of events that will change the face of the world forever: both theirs and ours. 
 
-Through forbidding the teaching of the true history, the institutional leaders of Blockchainia believe the have successfully staved off the NPC's natural inclination to wage war against one another via magic and weaponry. Only aware of a history beginning the Lost Events, the NPC's no longer believe in an individual ability to produce magic, they believe the only characters strong enough to wield magic are scholars and nobles, and have left the running of society to these elites. That is until the day a Player enters the Realm and befriends a special NPC, inspiring a belief in himself so strong that he conjures a magical spell, something unheard of in the modern age. Not fully understanding the risks, he spreads this newfound spiritual growth to the other NPCs, who shortly thereafter begin to slaughter each other in a massive civil war involving various factions, the most prominent being Red vs. Blue.
+Through forbidding the teaching of the true history, the institutional leaders of Eterraverse believe the have successfully staved off the NPC's natural inclination to wage war against one another via magic and weaponry. Only aware of a history beginning the Lost Events, the NPC's no longer believe in an individual ability to produce magic, they believe the only characters strong enough to wield magic are scholars and nobles, and have left the running of society to these elites. That is until the day a Player enters the Realm and befriends a special NPC, inspiring a belief in himself so strong that he conjures a magical spell, something unheard of in the modern age. Not fully understanding the risks, he spreads this newfound spiritual growth to the other NPCs, who shortly thereafter begin to slaughter each other in a massive civil war involving various factions, the most prominent being Red vs. Blue.
 
 
 ### Narrative
-Blockchainia exists in a realm where the flow of time is replaced by something its inhabitants refer to as "state", a plane where games of past, present, and future are slowly and unknowingly being drawn together by an unknown force.  
+Eterraverse exists in a realm where the flow of time is replaced by something its inhabitants refer to as "state", a plane where games of past, present, and future are slowly and unknowingly being drawn together by an unknown force.  
 
 Players will become members of various guilds vying for control over resources and power in a virtual world fractured by misinformation. Each player's actions and alliances will influence the eventual storyline and available craftables, collectibles, and mechanics as they evolve through each season of game play.
 
-It is initially unknown to the player, but most NPC's despise the powerful invaders that enter through yet-unknown virtual means. From the NPC's perspective, players entered their world as harmless AI Bots, whom one day are embedded into virtual avatars that take over their world through brute force. These "avatars" enjoy playing a brutal sport annihilating each other while pillaging the NPC world in the process, forcing their leaders to create every more powerful technology and magic. They yearn for a savior, one who will provide the governance necessary to banish these barbarians from the realm of Blockchainia forever.
+It is initially unknown to the player, but most NPC's despise the powerful invaders that enter through yet-unknown virtual means. From the NPC's perspective, players entered their world as harmless AI Bots, whom one day are embedded into virtual avatars that take over their world through brute force. These "avatars" enjoy playing a brutal sport annihilating each other while pillaging the NPC world in the process, forcing their leaders to create every more powerful technology and magic. They yearn for a savior, one who will provide the governance necessary to banish these barbarians from the realm of Eterraverse forever.
 
 While most NPCs view these invaders as a threat, others have found opportunity, offering "smart contracts" to players for completing certain tasks and rewarding them heavily for their efforts. 
 
 The NPCs are introduced to the player through in-game interactions. Each NPC will have a unique personality and emotional state, which can change depending on how many rounds it has recently won or lost. This will alter what it says and what Resources are dropped at the end of each match. The NPCs intend intend their left Essence as a tip to the player for entertaining them with a game of cards. They also drop Resources for hard fought games, whether the challenging player wins or loses.  From the players perspective, they are receiving the spoils of each victory, as they do in most other video games. 
 
-The bridge between the realm of Blockchainia and ours is now intertwined through Blockchainia: CardBrawl, connected through Chain State. To the NPCs, this is the only universe they know, and they believe they are playing against AI beings trapped inside a their version of a game console. One day, a traveler arrives, fully implemented in their world as Blockchainia's first Playable Character. The storyline will be experienced through the Role Playing Game Blockchainia: Paradigm Shift. The grind experience will move from Blockchainia: CardBrawl to Blockchainia: CryptoRoyale, enabled by our online gaming infrastructure, Blockchainia: OpenWorlds. While players of CryptoRoyale will be able to craft weapons and magic, all of the Legendary Spells and Equipment will be created during the founding seasons of CardBrawl. 
+The bridge between the realm of Eterraverse and ours is now intertwined through Eterraverse: Dawn of Eterra, connected through Chain State. To the NPCs, this is the only universe they know, and they believe they are playing against AI beings trapped inside a their version of a game console. One day, a traveler arrives, fully implemented in their world as Eterraverse's first Playable Character. The storyline will be experienced through the Role Playing Game Eterraverse: Paradigm Shift. The grind experience will move from Eterraverse: Dawn of Eterra to Eterraverse: CryptoRoyale, enabled by our online gaming infrastructure, Eterraverse: OpenWorlds. While players of CryptoRoyale will be able to craft weapons and magic, all of the Legendary Spells and Equipment will be created during the founding seasons of Dawn of Eterra. 
 
 ## 4. Art Style
 TBA
@@ -620,7 +620,7 @@ TBA
      - Game Interoperabiity
      - Lore/Backstory
    - Frequent releases that communicate to audience the benefits of Early Access to drive Follows and Signups through unique rewards. 
-- Promote the CardBrawl as a Companion Application
+- Promote the Dawn of Eterra as a Companion Application
   - Reveals, Live Streams, and Q&A via Social Media
   - Early Access for feedback and hype building
 
@@ -633,4 +633,4 @@ TBA
 
 ## Conclusion
 
-Blockchainia: CardBrawl utilizes a collect, craft, compete loop to create a strategic and dynamic card game, offering players a wealth of options for customization and tactical decision-making.
+Eterraverse: Dawn of Eterra utilizes a collect, craft, compete loop to create a strategic and dynamic card game, offering players a wealth of options for customization and tactical decision-making.
