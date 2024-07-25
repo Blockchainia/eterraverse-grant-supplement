@@ -581,7 +581,13 @@ The bridge between the realm of Eterraverse and ours is now intertwined through 
 TBA
 
 ### Visuals
-TBA
+These visuals show the default menus we are developing gameplay on, which will be replaced by hand drawn artwork in future milestones. 
+
+![default menu screen](menu.png)
+
+![default gameplay](gameplay.png)
+
+![example card template](card_template.png)
 
 ## 5. Technology
 
