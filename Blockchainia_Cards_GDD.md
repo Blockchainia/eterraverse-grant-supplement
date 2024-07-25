@@ -581,7 +581,7 @@ The bridge between the realm of Eterraverse and ours is now intertwined through 
 TBA
 
 ### Visuals
-These visuals show the default menus we are developing gameplay on, which will be replaced by hand drawn artwork in future milestones. 
+These visuals show the default menus we are developing gameplay on, which will be replaced by hand drawn artwork in future milestones. Visuals of initial concept art are provided in the pitch deck linked through the grant application document. 
 
 ![default menu screen](menu.png)
 
