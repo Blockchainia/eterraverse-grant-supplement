@@ -1,71 +1,21 @@
+### Elemental Bosses
 
+| Element      | Boss         | Region                                    | Description                                                                                                                   |
+|--------------|--------------|-------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| Earth        | Golem        | Jewish Folklore (Middle East)             | A legendary creature of clay and stone, brought to life through mystical rituals. Represents unyielding strength and resilience. |
+| Water        | Leviathan    | Ancient Near East                         | A colossal sea serpent from Biblical and Mesopotamian texts, representing the depths, chaos, and immense power of Water.        |
+| Fire         | Balrog       | Fictional/Mythological Blend              | A fiery being cloaked in shadow, wielding a blazing whip. Represents the consuming and destructive power of fire.              |
+| Wind         | Garuda       | Hindu and Buddhist Mythology (South Asia) | A divine eagle-like being, capable of creating hurricanes with its wings. Represents the overwhelming force of Wind.           |
+| Void         | Echidna      | Greek Mythology                           | The "Mother of All Monsters," symbolizing the chaotic, boundless nature of the Void and origin of legendary beasts.            |
+| Light         | Seraphim     | Biblical Tradition (Middle East)          | A six-winged celestial being of divine fire. Associated with purity, light, and sanctity, often guarding divine realms.         |
+| Dark         | Chimera      | Greek Mythology                           | A shadowy hybrid beast with a lion’s body, a goat’s head, and a serpent for a tail. Symbolizes fear and unpredictability.       |
+| Lightning    | Raiju        | Japanese Mythology                        | A creature of lightning and thunder, traveling through storms and striking with the force of a bolt. Represents untamed energy. |
+| Ice          | Yeti         | Himalayan Folklore (Central Asia)         | A frost-covered creature from snowy peaks, representing unyielding cold and isolation. Revered and feared in the mountains.    |
+| Decay        | Hel          | Norse Mythology                          | The goddess of the underworld, ruling over decay and the dead. Represents inevitable rot and dissolution.                      |
+| Purification | Ammit        | Egyptian Mythology                        | A creature with a crocodile’s head, lion’s body, and hippo’s hindquarters. Devours the wicked, ensuring balance and purity.     |
+| Poison       | Naga         | Hindu and Buddhist Mythology              | Semi-divine serpent beings with venom as both a deadly weapon and a tool for spiritual enlightenment.                          |
+| Chaos        | Hydra        | Greek Mythology                           | A multi-headed serpent with regenerative abilities. Symbolizes the unpredictable and uncontrollable nature of Chaos.           |
 
-### Elemental Bosses 
-
-#### Earth Boss
-1. **Golem**  
-   - **Region**: Jewish Folklore (Middle East)  
-   - A legendary creature of clay and stone, brought to life through mystical rituals. The Golem embodies the unyielding strength and resilience of the Earth element, often serving as a protector or enforcer.
-
-#### Water Boss
-2. **Leviathan**  
-   - **Region**: Ancient Near East  
-   - A colossal sea serpent mentioned in Biblical and Mesopotamian texts, representing the boundless depths, chaos, and immense power of the Water element.
-
-#### Fire Boss
-3. **Balrog**  
-   - **Region**: Fictional/Mythological Blend (Inspired by Norse and Christian imagery)  
-   - A monstrous, fiery being cloaked in shadow and flame, wielding a blazing whip and molten fury. The Balrog represents the consuming and destructive power of fire, bringing devastation and fear to all who face it.
-
-#### Wind Boss
-4. **Garuda**  
-   - **Region**: Hindu and Buddhist Mythology (South Asia)  
-   - A divine eagle-like being, Garuda is a swift and powerful creature, capable of creating hurricanes with its wings. It represents the freedom and overwhelming force of the Wind element.
-
-#### Void Boss
-5. **Echidna**  
-   - **Region**: Greek Mythology  
-   - A primordial monster known as the "Mother of All Monsters," Echidna symbolizes the chaotic, boundless nature of the Void element. She represents the unknown and the origin of many legendary beasts.
-
-#### Holy Boss
-6. **Seraphim**  
-   - **Region**: Biblical Tradition (Middle East)  
-   - A six-winged celestial being of divine fire, Seraphim are associated with purity, light, and the sanctity of the Holy element, often standing as guardians of divine realms.
-
-#### Dark Boss
-7. **Chimera**  
-   - **Region**: Greek Mythology  
-   - A shadowy hybrid beast with the body of a lion, the head of a goat, and a serpent for a tail. The Chimera embodies the chaotic and mysterious aspects of the Dark element, symbolizing fear and unpredictability.
-
-#### Lightning Boss
-8. **Raiju**  
-   - **Region**: Japanese Mythology  
-   - A creature made of lightning and thunder, the Raiju is said to travel through storms and strike with the force of a bolt. It symbolizes the vibrant, untamed energy of the Lightning element.
-
-#### Ice Boss
-9. **Yeti**  
-   - **Region**: Himalayan Folklore (Central Asia)  
-   - A towering, frost-covered creature from snowy peaks, the Yeti represents the unyielding cold and isolation of Ice. It is both feared and revered by those living in the mountains.
-
-#### Decay Boss
-10. **Hel**  
-   - **Region**: Norse Mythology  
-   - The goddess of the underworld, Hel rules over the dead and represents the inevitable decay of all living things. Her realm is a cold, dark place of rot and dissolution, embodying the destructive aspect of the Decay element.
-
-#### Purification Boss
-11. **Ammit**  
-   - **Region**: Egyptian Mythology  
-   - A creature with the head of a crocodile, the body of a lion, and the hindquarters of a hippopotamus, Ammit devours the hearts of the wicked. She embodies divine justice and purification through destruction, ensuring balance and purity in the afterlife.
-
-#### Poison Boss
-12. **Naga**  
-   - **Region**: Hindu and Buddhist Mythology (South and Southeast Asia)  
-   - Semi-divine serpent beings associated with both protection and venom. The Naga’s poison is both a deadly weapon and a tool for spiritual enlightenment, embodying the duality of danger and wisdom inherent to the Poison element.
-
-#### Chaos Boss
-13. **Hydra**  
-    - **Region**: Greek Mythology  
-    - A multi-headed serpent with regenerative abilities, the Hydra embodies the unpredictable and uncontrollable nature of Chaos. Cutting off one of its heads only causes more to grow in its place.
 
 
 ### Bestiary
@@ -167,3 +117,9 @@ This ecosystem is designed to represent a natural balance of interactions, inspi
 - **Apex Predator (Dragons)**: Maintain the balance of the ecosystem by controlling top-level predators.  
 
 
+### Statistics
+During each mint, the player will roll a pair of dice. Depending on the number they get, they will have that many "slot pulls" to allow them to create a meta for their creature. The assignable statistics from this drawing with be Attack, Defense, and HP. on a scale from 1-15. 
+
+Creatures can be levelled up by playing the game or assigning the creature to a server, where it will spawn every round in our FPS, or respond on a set interval in our RPG. 
+
+Creatures can only be levelled up by ten units of each statistic, so to be able to achieve perfect stats, the creature must have a minimum of 5 for each statistic, or it will end with a suboptimal number. 
